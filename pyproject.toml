@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "tox_appveyor"
+dist-name = "tox-appveyor"
+author = "Thomas Kluyver"
+author-email = "thomas@kluyver.me.uk"
+home-page = "https://github.com/takluyver/tox_appveyor"
+classifiers = [
+    "Framework :: tox",
+    "License :: OSI Approved :: MIT License",
+]
+
+[tool.flit.entrypoints.tox]
+appveyor = "tox_appveyor"
