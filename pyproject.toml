@@ -8,6 +8,7 @@ dist-name = "tox-appveyor"
 author = "Thomas Kluyver"
 author-email = "thomas@kluyver.me.uk"
 home-page = "https://github.com/takluyver/tox_appveyor"
+description-file = "README.rst"
 classifiers = [
     "Framework :: tox",
     "License :: OSI Approved :: MIT License",
