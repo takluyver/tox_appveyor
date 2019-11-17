@@ -8,7 +8,7 @@ import re
 import tox
 from warnings import warn
 
-__version__ = '0.1'
+__version__ = '0.1.1'
 
 @tox.hookimpl
 def tox_get_python_executable(envconfig):
