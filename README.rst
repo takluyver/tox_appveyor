@@ -1,3 +1,8 @@
+**Deprecated**: This plugin doesn't work with tox 4.x. One alternative is
+to use ``tox run --discover path\\to\\python.exe`` to specify which Python
+to use. If you want to make a new plugin, see `tox's plugin docs
+<https://tox.wiki/en/stable/plugins.html>`_.
+
 This is a tiny Tox plugin to allow selecting 32-bit or 64-bit Python
 on `AppVeyor <https://www.appveyor.com/>`_ Windows CI builds.
 
